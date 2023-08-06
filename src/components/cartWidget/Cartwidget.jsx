@@ -1,10 +1,13 @@
 import React from 'react'
+import './Cartwidget.css'
 
-export const Cartwidget = () => {
+export const Cartwidget = () => {  
+  // Icono de carrito
   return (
-    <i className="bi bi-cart3"></i> // Icono de carrito
-    
-   )
+    <div>
+      <i className="cart-icon bi bi-cart3"></i>     
+    </div>
+  )
 }
 
 export default Cartwidget;
